@@ -2,57 +2,48 @@ body{
     background-color: blueviolet;
     display: flex;
     justify-content: center;
-    
-}
 
-label{   
-    margin-top: 25px;
+ }
+ 
+label{
     display: flex;
     justify-content: center;
-
-}
-
-
-
-h1{
-    color: beige;
     margin-top: 20px;
 }
 
 form{
-    text-align: center;
     background-color: #0a141f;
-    height: 550px;
-    width: 300px ; 
-    box-shadow: 2px 2px 8px 8px;
-    border-radius: 10px;
-   
+    width: 300px;
+    height: 500px; 
+    border:3px solid white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 10px;
     
 }
 
-
-
-.country{
-    width: 250px;
-    height: 25px; 
-    border-radius: 5px;
+h1{
+    text-align: center;
+    color: beige;
 }
 
 input{
-    width: 240px;
     height: 20px;
-    border: 1px solid black;
+    width: 200px;
     border-radius: 5px;
+
 }
 
-input[type="submit"]{
-    margin-top: 20px;
+.country{
+    height: 26px;
+    width: 208px;
+    border-radius: 5px;
+
+}
+
+input[type="submit"] {
     background-color: #04AA6D;
-    height: 30px;
     color: beige;
-    border-radius: 40px;
-    border: none;
+    border-radius: 10px;
+    height: 25px;
 }
-
-
 
