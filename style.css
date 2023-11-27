@@ -1,6 +1,18 @@
 body{
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    
 }
+
+label{   
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 
 h1{
     color: beige;
@@ -13,13 +25,12 @@ form{
     height: 550px;
     width: 300px ; 
     box-shadow: 2px 2px 8px 8px;
+    border-radius: 10px;
+   
     
 }
 
-label{
-    display: block;
-    margin-top: 25px;
-}
+
 
 .country{
     width: 250px;
